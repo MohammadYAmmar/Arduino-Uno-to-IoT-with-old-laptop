@@ -20,9 +20,8 @@ if (isset($_POST['Clear-submit'])) {
 function command_shell($execution)
 {
     $out = shell_exec("./run_shell.sh $execution;");
-    echo ($out);
- //On page 1
-$_SESSION['out_transfer'] = $out;
+    //echo ($out); //todo add CSS Animated Checkmark
+    echo ("Succuss ✔");
 }
 ?>
 
@@ -33,7 +32,10 @@ $_SESSION['out_transfer'] = $out;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <link rel="stylesheet" href="styles.css">
+
 
     <title>MohammadYAmmar IoT Control</title>
     <main>Control panel for Arduino Uno</main>
@@ -45,7 +47,7 @@ $_SESSION['out_transfer'] = $out;
             <input type="hidden" name="action" value="submit" />
 
             <h1>
-                <! –– Arduino Traffic Light IoT without any element ––>
+                Arduino Uno to IoT with old laptop without any other element
             </h1>
 
             <h2>
@@ -53,6 +55,7 @@ $_SESSION['out_transfer'] = $out;
                 </button>
             </h2>
             <h3>
+
                 <input id="Red" type="submit" name="Red-submit" value="Red" <button class="button_red" type="button" id="Red" input type="submit">
                 </button>
 
@@ -61,22 +64,26 @@ $_SESSION['out_transfer'] = $out;
 
                 <input id="Green" type="submit" name="Green-submit" value="Green" <button class="button_Green" type="button" id="Green" input type="submit">
                 </button>
+
             </h3>
             <h4>
-                <input id="clear" type="submit" name="Clear-submit" value="Upload empty project : clear" <button class="button" type="button" id="clear" input type="submit">
+                <input id="clear" type="submit" name="Clear-submit" value="Upload empty project: clear" <button class="button" type="button" id="clear" input type="submit">
                 </button>
             </h4>
+
+            <!-- <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button> -->
     </div>
 
     <form method="get" action="display_output.php">
-    <a href="/display_output.php">Output</a> <! –– todo change ––>
+        <a href="/display_output.php">Output from terminal</a>
+        <! –– todo change ––>
     </form>
 
 
-
-
     <nav>
-        Upload ino files: Soon 🔜 |
+    Upload ino files and view output from screen: Soon 🔜 |
         GitHub:MohammadYAmmar
     </nav>
 

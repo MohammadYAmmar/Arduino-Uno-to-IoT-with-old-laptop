@@ -1,7 +1,7 @@
 <!-- Arduino IoT without element  -->
 
 <?php
-//Auto-submit
+//Event if press button
 if (isset($_POST['Auto-submit'])) {
     command_shell('auto');
 }
@@ -35,6 +35,7 @@ function command_shell($execution)
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png">
 
 
     <title>MohammadYAmmar IoT Control</title>
@@ -77,19 +78,23 @@ function command_shell($execution)
     </div>
 
     <form method="get" action="display_output.php">
-        <a href="/display_output.php">Output from terminal</a>
-        <! –– todo change ––>
+        <a href="/display_output.php">The output of the program from a terminal 🐧</a>
     </form>
+
+    <form method="get" action="show_last_code.php">
+        <a href="/show_last_code.php">Show last code 📝</a>
+    </form>
+    <p><br></p>
+
 
 
     <nav>
-    Upload ino files and view output from screen: Soon 🔜 |
-        GitHub:MohammadYAmmar
+        Upload ino files and view output from screen: Soon 🔜 |
+        <a href="https://github.com/MohammadYAmmar">GitHub:MohammadYAmmar</a>
     </nav>
+   
 
-    </form>
 
-    </div>
 
 </body>
 

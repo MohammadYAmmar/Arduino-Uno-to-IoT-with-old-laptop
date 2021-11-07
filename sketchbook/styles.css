@@ -1,31 +1,21 @@
 body {
-  background-color: rgb(184, 247, 217);
+  background-color: rgb(185, 236, 245);
+  margin-left: 15px;
 }
 
- main {
-      font-family: "Comic Sans", "Times New Roman", serif;
-      font-style: oblique;
-      font-size: 30px;
-      color: rgb(4, 3, 63);
-      width: 100%;
-      text-align: center;
-      max-width: 1920px;
-      min-width: 480px; 
-      height: 100px; 
-      margin-left: -8px;
-      padding: 100px 0 0;
-  /* font-family: "Comic Sans", "Times New Roman", serif;
+main {
+  font-family: "Comic Sans", "Times New Roman", serif;
   font-style: oblique;
+  font-size: 30px;
   color: rgb(4, 3, 63);
-  font-size: 33px;
   width: 100%;
-  max-width: 1920px;
-  min-width: 480px; 
-  height: 200px; 
-  margin-left: -8px;
   text-align: center;
-  padding: 100px 0 0; */
-} 
+  max-width: 1920px;
+  min-width: 480px;
+  height: 200px;
+  margin-left: -8px;
+  padding: 100px 0 0;
+}
 h1 {
   font-size: 18px;
 }
@@ -40,10 +30,17 @@ h1 {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer;
   position: inherit;
   background-color: rgba(241, 241, 243, 0.986);
+  /*
+  */
+  border-radius: 5px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
 }
+
 .button_red {
   background-color: rgba(252, 44, 44, 0.877);
   color: whitesmoke;
@@ -54,13 +51,20 @@ h1 {
 .button_Green {
   background-color: rgba(44, 252, 72, 0.877);
 }
-
+/* Adding styles on 'active' state */
+.button:active,
+.button_red:active,
+.button_Yellow:active,
+.button_Green:active {
+  box-shadow: box-shadow 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  transform: translateY(4px);
+  /* Moving button 4px to y-axis */
+}
 
 .container {
   width: 100%;
   max-width: 1920px;
   min-width: 480px;
-/*  height: 100%;*/
   margin-left: -8px;
   overflow: hidden;
   text-align: center;

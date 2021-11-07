@@ -7,14 +7,26 @@ fi
 pwd;
 rm *.ino;
 if [ "$n" == "green" ]; then
-echo "hello shell"
-exit
+cp codes_ino/colors/green.ino ~/sketchbook/;
+echo "green"
+elif [ "$n" == "yellow" ]; then
+cp codes_ino/colors/yellow.ino ~/sketchbook/;
+echo "yellow"
+elif [ "$n" == "red" ]; then
+cp codes_ino/colors/red.ino ~/sketchbook/;
+echo "red"
+elif [ "$n" == "auto" ]; then
+cp codes_ino/traffic_light.ino ~/sketchbook/;
+elif [ "$n" == "clear" ]; then
+cp codes_ino/empty_project.ino ~/sketchbook/;
 fi
-#cp colors/red.ino ~/sketchbook/;
-#cp colors/yellow.ino ~/sketchbook/;
-cp colors/green.ino ~/sketchbook/;
+sudo chown www-data *.ino
 make;
 wait;
-make upload;
+rm output.txt
+rm lamp_Animation_out.html
+make upload > output.txt;
 wait;
-echo "Hi";
+echo "Done of $n"
+python3 select_color_lamp.py $n
+sudo chown www-data *.txt

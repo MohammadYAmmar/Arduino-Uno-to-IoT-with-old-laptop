@@ -43,7 +43,6 @@ h1 {
   background-color: rgba(44, 252, 72, 0.877);
 }
 
-/* To match the dimensions of the phone or any other screen */
 .container {
   width: 100%;
   max-width: 1920px;

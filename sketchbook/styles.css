@@ -1,22 +1,33 @@
 body {
-  background-color: rgb(243, 157, 200);
+  background-color: rgb(184, 247, 217);
 }
 
-main {
-  font-family: "Comic Sans", "Times New Roman", serif;
+ main {
+      font-family: "Comic Sans", "Times New Roman", serif;
+      font-style: oblique;
+      font-size: 30px;
+      color: rgb(4, 3, 63);
+      width: 100%;
+      text-align: center;
+      max-width: 1920px;
+      min-width: 480px; 
+      height: 100px; 
+      margin-left: -8px;
+      padding: 100px 0 0;
+  /* font-family: "Comic Sans", "Times New Roman", serif;
   font-style: oblique;
   color: rgb(4, 3, 63);
   font-size: 33px;
   width: 100%;
   max-width: 1920px;
-  min-width: 480px;
-  height: 200px;
+  min-width: 480px; 
+  height: 200px; 
   margin-left: -8px;
   text-align: center;
-  padding: 100px 0 0;
-}
+  padding: 100px 0 0; */
+} 
 h1 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .button,
@@ -31,10 +42,11 @@ h1 {
   margin: 4px 2px;
   cursor: pointer;
   position: inherit;
-  background-color: rgba(188, 231, 199, 0.877);
+  background-color: rgba(241, 241, 243, 0.986);
 }
 .button_red {
   background-color: rgba(252, 44, 44, 0.877);
+  color: whitesmoke;
 }
 .button_Yellow {
   background-color: rgba(252, 238, 44, 0.877);
@@ -43,11 +55,12 @@ h1 {
   background-color: rgba(44, 252, 72, 0.877);
 }
 
+
 .container {
   width: 100%;
   max-width: 1920px;
   min-width: 480px;
-  height: 200px;
+/*  height: 100%;*/
   margin-left: -8px;
   overflow: hidden;
   text-align: center;

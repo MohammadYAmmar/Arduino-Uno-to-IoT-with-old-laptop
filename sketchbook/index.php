@@ -21,6 +21,8 @@ function command_shell($execution)
 {
     $out = shell_exec("./run_shell.sh $execution;");
     echo ($out);
+ //On page 1
+$_SESSION['out_transfer'] = $out;
 }
 ?>
 
@@ -65,7 +67,11 @@ function command_shell($execution)
                 </button>
             </h4>
     </div>
-<!--todo popup to output  -->
+
+    <form method="get" action="display_output.php">
+    <a href="/display_output.php">Output</a> <! –– todo change ––>
+    </form>
+
 
 
 

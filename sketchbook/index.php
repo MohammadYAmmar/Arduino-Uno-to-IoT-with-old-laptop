@@ -80,7 +80,11 @@ function command_shell($execution)
     <form method="get" action="display_output.php">
         <a href="/display_output.php">The output of the program from a terminal 🐧</a>
     </form>
-
+    <p><br></p>
+    <form method="get" action="lamp_Animation_out.html">
+        <a href="/lamp_Animation_out.html">The Animation lamp of output 💡</a>
+    </form>
+    <p><br></p>
     <form method="get" action="show_last_code.php">
         <a href="/show_last_code.php">Show last code 📝</a>
     </form>

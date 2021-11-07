@@ -53,9 +53,22 @@ lamp_Animation_out.html     output.txt
 4. HTML, CSS: for design control panel and other pages.
 
 
-# Steps to  :
-1. Soon todo 
-   ![alt text]( "figure 1: ")
+# Steps to setup  :
+1. Install arduino-mk
+   `sudo apt install arduino-mk`
+2. Activate the validity of the port connected to the Arduino Uno 
+   `sudo chmod a+rw /dev/ttyACM0`
+3. Install apache server with php
+   `sudo apt install apache2 php libapache2-mod-php`
+4. Change folder of apache server from /var/www/html to sketchbook by
+`sudo nano /etc/apache2/apache2.conf`
+Find user and group and put **www-data**
+`User <Your User> Group <Your Group>`
+After that:
+`sudo service apache2 restart`
+
+If the old laptop is not usable directly due to its performance, you can connect to it from your personal computer using SSH, and copying through SCP
+As shown here:
 
 todo GIF of SSH and SCP
 
@@ -81,7 +94,7 @@ My GitHub: https://github.com/MohammadYAmmar
 
 My LinkedIn: https://www.linkedin.com/in/mohammad-y-ammar/ 
 
-If you have seen the description and tool with codes, can you recommend my Arduino [todo] or Shell scripting programming skills on LinkedIn? :)
+If you have seen the description and tool with codes, can you recommend my Arduino or Shell scripting programming skills on LinkedIn? :)
 
 Do not forget to give the project a star ⭐🌟 to encourage us to continue if you liked it.
 

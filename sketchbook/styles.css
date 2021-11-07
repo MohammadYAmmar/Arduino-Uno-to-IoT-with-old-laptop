@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(243, 157, 200);
+}
+
+main {
+  font-family: "Comic Sans", "Times New Roman", serif;
+  font-style: oblique;
+  color: rgb(4, 3, 63);
+  font-size: 33px;
+  width: 100%;
+  max-width: 1920px;
+  min-width: 480px;
+  height: 200px;
+  margin-left: -8px;
+  text-align: center;
+  padding: 100px 0 0;
+}
+h1 {
+  font-size: 20px;
+}
+
+.button,
+.button_red,
+.button_Yellow,
+.button_Green {
+  padding: 7px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: inherit;
+  background-color: rgba(188, 231, 199, 0.877);
+}
+.button_red {
+  background-color: rgba(252, 44, 44, 0.877);
+}
+.button_Yellow {
+  background-color: rgba(252, 238, 44, 0.877);
+}
+.button_Green {
+  background-color: rgba(44, 252, 72, 0.877);
+}
+
+/* To match the dimensions of the phone or any other screen */
+.container {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 480px;
+  height: 200px;
+  margin-left: -8px;
+  overflow: hidden;
+  text-align: center;
+}

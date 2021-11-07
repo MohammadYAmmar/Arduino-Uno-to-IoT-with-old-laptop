@@ -8,9 +8,11 @@ This shows the
    ![alt text]( "GIF of result")
 
 # Structure 
-todo image of Image Project Sequence 3
-   ![alt text]( "Project Sequence")
-todo link of GIF Project Sequence 2
+todo Image Project Sequence 3
+   ![alt text](https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop/blob/main/Structure%20and%20Media%20of%20project/Image%20Project%20Sequence%203.jpg "Project Sequence")
+
+
+
 
 # Video
 todo
@@ -28,7 +30,8 @@ This is an opportunity to develop my various skills and I learned many things du
 
 
 # Implementation:
-todo
+todo Project Sequence 2
+   ![alt text](https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop/blob/main/Structure%20and%20Media%20of%20project/GIF%20Project%20Sequence%202.gif "Project Sequence")
 
 ![alt text]("figure of Structure")
 
@@ -67,5 +70,15 @@ If you have seen the description and tool with codes, can you recommend my Ardui
 
 Do not forget to give the project a star ⭐🌟 to encourage us to continue if you liked it.
 
+Please do not copy or distribute my code without permission or (mention work in github with Pull Request to Contributing  or question in issues section in repository) .
+
 
 Thank you for reading all of this to benefit you instead of just copying and pasting ✂!
+
+## Contributing
+
+1. Fork it (<https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request

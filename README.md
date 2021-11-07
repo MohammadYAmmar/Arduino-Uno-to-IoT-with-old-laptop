@@ -4,25 +4,27 @@ Description: Arduino Uno to IoT without a hardware element. By building a contro
 
 # Results:
 This shows the 
-
+todo GIF of quick result.gif
    ![alt text]( "GIF of result")
 
 # Structure 
-todo Image Project Sequence 3
+The image of project sequence
    ![alt text](https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop/blob/main/Structure%20and%20Media%20of%20project/Image%20Project%20Sequence%203.jpg "Project Sequence")
 
 
 
-
 # Video
-todo
+Soon in my account in twitter and linkedin .todo
 
 # How to use it?
-
+After setup, Open IP address of server and enjoy it.
 todo
 
 # What are the requirements?
-
+- Arduino Uno
+- Old laptop
+- OS in old laptop is distribution from GUN Linux, If specs of laptop is low can use Bodhi Linux like the project  
+- arduino-mk, Apache server, PHP, and Python3. Soon I will be make shell script for setup to do that.
 
 # Introduction:
 I have an Arduino Uno and I want it to be online or at least send a code to it while it is not connected to my device. I remembered an old laptop in our house from 2009, so I installed a light Linux distribution for it, and my goal was to implement a project that I could connect an Arduino to and control it from another device.
@@ -36,17 +38,21 @@ todo Project Sequence 2
 ![alt text]("figure of Structure")
 
 
-# Shell script:
-todo
-
 # Distribute files from the project's repository
-todo
+Sketch book in old laptop
+
+todo picture 
+
+
+
+# Programming languages used and reasons:
+1. Shell script: todo
+2. PHP: todo
+3. Python: todo
 
 # Steps to  :
 1. todo 
    ![alt text]( "figure 1: ")
-
-
 
 # Conclusion:
 todo

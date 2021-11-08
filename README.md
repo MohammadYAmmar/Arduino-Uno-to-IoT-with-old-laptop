@@ -11,10 +11,10 @@ This is an opportunity to develop my various skills and I learned many things du
 
 # Structure 
 The image of project sequence
-   ![alt text](https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop/blob/main/Structure%20and%20Media%20of%20project/Image%20Project%20Sequence%203.jpg "Project Sequence")
+   ![alt text](https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop/blob/main/Structure%20and%20Media%20of%20project/Image%20Project%20Sequence%203.jpg "Project Structure")
 
 
-# Video
+# Video:
 Soon in my account on Twitter and LinkedIn.
 todo Twitter
 todo LinkedIn
@@ -26,14 +26,12 @@ After setup, Open the IP address of the server and enjoy it with different examp
 - Arduino Uno
 - Old laptop
 - OS in an old laptop is a distribution from GUN Linux, If the specs of a laptop are low can use Bodhi Linux like the project  
-- arduino-mk, Apache server, PHP, and Python3. Soon I will be making a shell script for setup to do that.
+- arduino-mk, Apache server, PHP, and Python3. 
+Soon I will be making a shell script for setup to do that.
 
 # Implementation:
 Project Sequence 
    ![alt text](https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop/blob/main/Structure%20and%20Media%20of%20project/GIF%20Project%20Sequence%202.gif "Project Sequence")
-
-![alt text]("figure of Structure")
-
 
 # Programming languages used and reasons:
 1. Shell script: for controlling Linux like running Arduino programs, deleting files, or running other programming languages.
@@ -45,46 +43,69 @@ Project Sequence
 
 # Steps to setup  :
 1. Install arduino-mk
+
    `sudo apt install arduino-mk`
 2. Activate the validity of the port connected to the Arduino Uno 
+
    `sudo chmod a+rw /dev/ttyACM0`
 3. Install apache server with php
+
    `sudo apt install apache2 php libapache2-mod-php`
 4. Change folder of apache server from /var/www/html to sketchbook by
+
 `sudo nano /etc/apache2/apache2.conf`
 Find user and group and put **www-data**
+
 `User <Your User> Group <Your Group>`
+
 After that:
+
 `sudo service apache2 restart`
 
 If the old laptop is not used directly due to its performance, you can connect to it from your personal computer using SSH, and copying through scp command
 As shown here:
-   ![alt text](https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop/blob/main/Structure%20and%20Media%20of%20project/GIF%20of%20SSH%20ans%20scp.gif "SSH and scp")
+   ![alt text](https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop/blob/main/Structure%20and%20Media%20of%20project/GIF%20of%20SSH%20and%20scp.gif "SSH and scp")
+
+todo if show check after push
 
 # Distribute files from the project's repository
 Sketchbook in old laptop contains:
 
-build-uno  display_output.php  lamp_Animation.html      libraries           select_color_lamp.py  styles.css
-codes_ino  index.php           logo.png                 run_shell.sh        show_last_code.php
+build-uno - display_output.php - lamp_Animation.html - libraries - select_color_lamp.py - styles.css
+codes_ino - index.php - logo.png - run_shell.sh - show_last_code.php
 
 Temp files are:
 
-lamp_Animation_out.html     output.txt
+lamp_Animation_out.html - output.txt
+
+# Traffic Light Schematics	
+The example of auto traffic light simulator from [Project Hub - Arduino create](https://create.arduino.cc/projecthub/techno_z/arduino-traffic-light-simulator-2ec9f7)
+
+   ![alt text](https://hacksterio.s3.amazonaws.com/uploads/attachments/357828/arduino-traffic-light-circuit-diagram_OzXQN6Ea9r.jpg "Traffic Light Schematics")
+
+
+# Website 
+When using Addons [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb) we notice that the design can be compatible with more screens more appropriately, in the future we can use framework tools like Bootstrap to the main website
+
+   ![alt text]( "Responsive Viewer")
+todo
 
 # Conclusion:
 I loved this project because I used a variety of skills to make the project work and build and it will help me with the application in the Arduino Uno without any wires near my personal computer. The site works interactively without the need for external parts that I need to buy or intermediary programs and applications online and they have a cost, a beautiful project from an idea that came to my mind on the 5th of the year 2021 and I designed my imagination for it at the time and in the month of the 10th of the same year I started working on it and now I have finished the first A usable and publishable copy! I will continue to update it, God willing.
+A number of working hours based on time in Google Calendar and Forest: todo
 
 Initial design on 5/2021: 
    ![alt text](https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop/blob/main/Structure%20and%20Media%20of%20project/Idea%20Arduino%20project.png "Idea Arduino project")
 
 
 ---
-# Future work
+# Future work:
 - Shell script to setup
 - Release file of a project after version 1 finish
+- Bootstrap to the main website
 
 ---
-# Licence  
+# License:
 todo
 
 ---

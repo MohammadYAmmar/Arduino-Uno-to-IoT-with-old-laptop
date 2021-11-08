@@ -66,7 +66,6 @@ If the old laptop is not used directly due to its performance, you can connect t
 As shown here:
    ![alt text](https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop/blob/main/Structure%20and%20Media%20of%20project/GIF%20of%20SSH%20and%20scp.gif "SSH and scp")
 
-todo if show check after push
 
 # Distribute files from the project's repository
 Sketchbook in old laptop contains:
@@ -81,14 +80,13 @@ lamp_Animation_out.html - output.txt
 # Traffic Light Schematics	
 The example of auto traffic light simulator from [Project Hub - Arduino create](https://create.arduino.cc/projecthub/techno_z/arduino-traffic-light-simulator-2ec9f7)
 
-   ![alt text](https://hacksterio.s3.amazonaws.com/uploads/attachments/357828/arduino-traffic-light-circuit-diagram_OzXQN6Ea9r.jpg "Traffic Light Schematics")
-
+   ![alt text]( "Traffic Light Schematics")
+todo
 
 # Website 
 When using Addons [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb) we notice that the design can be compatible with more screens more appropriately, in the future we can use framework tools like Bootstrap to the main website
 
-   ![alt text]( "Responsive Viewer")
-todo
+   ![alt text](https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop/blob/main/Structure%20and%20Media%20of%20project/Responsive%20Viewer%20of%20website%20initial%20commit.png "Responsive Viewer")
 
 # Conclusion:
 I loved this project because I used a variety of skills to make the project work and build and it will help me with the application in the Arduino Uno without any wires near my personal computer. The site works interactively without the need for external parts that I need to buy or intermediary programs and applications online and they have a cost, a beautiful project from an idea that came to my mind on the 5th of the year 2021 and I designed my imagination for it at the time and in the month of the 10th of the same year I started working on it and now I have finished the first A usable and publishable copy! I will continue to update it, God willing.

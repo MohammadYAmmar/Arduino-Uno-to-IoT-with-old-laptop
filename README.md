@@ -15,9 +15,11 @@ The image of project sequence
 
 
 # Video:
-Soon in my account on Twitter and LinkedIn.
+   ![alt text](https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop/blob/main/Structure%20and%20Media%20of%20project/Project%20Thumbnail.png "Project Thumbnail")
+ 
+ [LinkedIn video](https://www.linkedin.com/posts/mohammad-y-ammar_aepaezaexaewaeyaeuaew-aenaeuaesaezaeuaesabraepaesaelaecaeyaepaej-activity-6863399559163371520-l84H)
+
 todo Twitter
-todo LinkedIn
 
 # How to use it?
 After setup, Open the IP address of the server and enjoy it with different examples.
@@ -80,8 +82,8 @@ lamp_Animation_out.html - output.txt
 # Traffic Light Schematics	
 The example of auto traffic light simulator from [Project Hub - Arduino create](https://create.arduino.cc/projecthub/techno_z/arduino-traffic-light-simulator-2ec9f7)
 
-   ![alt text]( "Traffic Light Schematics")
-todo
+   ![alt text](https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop/blob/main/Structure%20and%20Media%20of%20project/arduino-traffic-light-circuit-diagram_OzXQN6Ea9r.jpg "Traffic Light Schematics")
+
 
 # Website 
 When using Addons [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb) we notice that the design can be compatible with more screens more appropriately, in the future we can use framework tools like Bootstrap to the main website
@@ -90,7 +92,8 @@ When using Addons [Responsive Viewer](https://chrome.google.com/webstore/detail/
 
 # Conclusion:
 I loved this project because I used a variety of skills to make the project work and build and it will help me with the application in the Arduino Uno without any wires near my personal computer. The site works interactively without the need for external parts that I need to buy or intermediary programs and applications online and they have a cost, a beautiful project from an idea that came to my mind on the 5th of the year 2021 and I designed my imagination for it at the time and in the month of the 10th of the same year I started working on it and now I have finished the first A usable and publishable copy! I will continue to update it, God willing.
-A number of working hours based on time in Google Calendar and Forest: todo
+A number of working hours based on time in Google Calendar and Forest: 55 hour 📆 🌲
+To learn how to powers when it was not sending the command to execute the Arduino as well as continuous experimentation, problem solving and improvement. Fun and useful hours 😁💡.
 
 Initial design on 5/2021: 
    ![alt text](https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop/blob/main/Structure%20and%20Media%20of%20project/Idea%20Arduino%20project.png "Idea Arduino project")

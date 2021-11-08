@@ -15,11 +15,12 @@ The image of project sequence
 
 
 # Video:
-   ![alt text](https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop/blob/main/Structure%20and%20Media%20of%20project/Project%20Thumbnail.png "Project Thumbnail")
- 
  [LinkedIn video](https://www.linkedin.com/posts/mohammad-y-ammar_aepaezaexaewaeyaeuaew-aenaeuaesaezaeuaesabraepaesaelaecaeyaepaej-activity-6863399559163371520-l84H)
 
-todo Twitter
+[Twitter video](https://twitter.com/mohammad_yammar/status/1457674207513489410)
+
+   ![alt text](https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop/blob/main/Structure%20and%20Media%20of%20project/Project%20Thumbnail.png "Project Thumbnail")
+
 
 # How to use it?
 After setup, Open the IP address of the server and enjoy it with different examples.

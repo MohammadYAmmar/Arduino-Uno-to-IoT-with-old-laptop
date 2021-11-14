@@ -26,17 +26,47 @@ sudo chmod +x install.sh
 sudo ./install.sh 
 sudo chmod a+rw /dev/ttyACM0 #edit
 }
+
 setup_arduino_mk () {
 #sudo apt install arduino-mk
+cd ~
 mkdir sketchbook
-cd /usr/share/arduino/
-ls
+#cd /usr/share/arduino/
+#ls
 cd ~/sketchbook/
-ls
 #nano blinky.ino #solution to input data
 #nano Makefile
 #nano -m Makefile
 mkdir libraries
+ls
+}
+#> to add/replace the content ( here actual content got replaced by the 2nd line)
+#>> to append
+
+create_blinky () {
+#nano blinky.ino 
+touch blinky.ino
+file="blinky.ino"
+echo "void setup(){
+pinMode(13, OUTPUT);
+Serial.begin(9600);
+}
+
+void loop(){
+digitalWrite(13,HIGH);
+delay(2000);
+digitalWrite(13,LOW);
+delay(2000);
+Serial.println("Hello Arduino");
+}" > $file 
+cat $file
+}
+
+create_Makefile () {
+  touch Makefile
+file="Makefile"
+echo "" > $file #todo
+cat $file
 }
 
 # Main 
@@ -48,6 +78,7 @@ echo "Hi, My name is Mohammad Yaser Ammar. I will help you to setup Arduino to u
 echo ""
 echo ""
 echo "The shell is still under development and needs additions, I will update it soon, God willing"
+create_blinky
 exit
 #-----
 """

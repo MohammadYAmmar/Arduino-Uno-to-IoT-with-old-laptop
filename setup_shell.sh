@@ -31,12 +31,9 @@ setup_arduino_mk () {
 #sudo apt install arduino-mk
 cd ~
 mkdir sketchbook
-#cd /usr/share/arduino/
-#ls
 cd ~/sketchbook/
-#nano blinky.ino #solution to input data
-#nano Makefile
-#nano -m Makefile
+create_blinky
+create_Makefile
 mkdir libraries
 ls
 }
@@ -51,7 +48,6 @@ echo "void setup(){
 pinMode(13, OUTPUT);
 Serial.begin(9600);
 }
-
 void loop(){
 digitalWrite(13,HIGH);
 delay(2000);
@@ -63,9 +59,15 @@ cat $file
 }
 
 create_Makefile () {
-  touch Makefile
+touch Makefile
 file="Makefile"
-echo "" > $file #todo
+echo "ARDUINO_DIR = /usr/share/arduino
+ARDUINO_PORT = /dev/ttyACM*
+
+USER_LIB_PATH = /home/sketchbook/libraries
+BOARD_TAG = uno
+
+include /usr/share/arduino/Arduino.mk" > $file
 cat $file
 }
 
@@ -78,8 +80,8 @@ echo "Hi, My name is Mohammad Yaser Ammar. I will help you to setup Arduino to u
 echo ""
 echo ""
 echo "The shell is still under development and needs additions, I will update it soon, God willing"
-create_blinky
-exit
+#setup_arduino_mk
+exit #todo
 #-----
 """
 #Help section
@@ -146,7 +148,3 @@ wait # Until the above operations are finished
 
 #command
 Tool_conclusion
-
-
-
-

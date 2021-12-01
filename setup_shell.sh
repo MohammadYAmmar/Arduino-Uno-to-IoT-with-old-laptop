@@ -36,6 +36,8 @@ create_blinky
 create_Makefile
 mkdir libraries
 ls
+complete_setup #todo update
+setup_conclusion
 }
 #> to add/replace the content ( here actual content got replaced by the 2nd line)
 #>> to append
@@ -71,6 +73,12 @@ include /usr/share/arduino/Arduino.mk" > $file
 cat $file
 }
 
+complete_setup () {
+(sleep 2 && echo "## to get more files is avalible in https://github.com/MohammadYAmmar/Arduino-Uno-to-IoT-with-old-laptop" && sleep 2)
+(sleep 2 && echo "Soon the shell will be updated to take files automatically and adapt to your system" && sleep 2)
+
+}
+
 # Main 
 clear
 echo "Hi, My name is Mohammad Yaser Ammar. I will help you to setup Arduino to using in terminal"
@@ -81,7 +89,7 @@ echo ""
 echo ""
 echo "The shell is still under development and needs additions, I will update it soon, God willing"
 #setup_arduino_mk
-exit #todo
+#exit 
 #-----
 """
 #Help section
